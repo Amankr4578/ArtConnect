@@ -1,55 +1,88 @@
-# ArtConnect
-A frontend web project built with **HTML, CSS** — a visually appealing landing page template for showcasing artwork and creative designs.
+# VisualNest
+
+A creative social platform UI built with **HTML, CSS, and JavaScript** — designed for creators to connect, share, and explore visual content.
 
 ## 🚀 About the Project
 
-**ArtConnect** is a simple static website designed to display artwork and creative content attractively.  
-This project can be used as a portfolio site, art showcase page, or inspiration for learning web design.
+**VisualNest** is a frontend web application that simulates a social media platform for designers and creative users.  
+It includes a complete authentication flow (Login & Registration) and a modern social dashboard interface.
+
+This project is ideal for:
+- Portfolio showcase
+- College projects
+- Learning frontend development and UI design
 
 ## 🧠 Features
 
-- ✨ Clean and modern layout
-- 🎨 Fully built with **HTML & CSS**
-- 📱 Responsive design (works on mobile & desktop)
-- 📂 Easy to customize and extend
+- 🔐 Login & Registration system (UI based)
+- 📰 Social media dashboard layout
+- 📸 Stories and feeds section
+- 💬 Messaging panel UI
+- 🔔 Notification system UI
+- 🎨 Modern and clean responsive design
+- 📱 Works on desktop and mobile screens
 
 ## 📁 Project Structure
-ArtConnect/
-├── index.html # Main HTML page
-├── style.css # Styling for layout & design
-├── README.md # Project description (this file)
-├── Poppins.zip # Font file used in the design
+
+VisualNest/
+├── login.html        # Login page  
+├── register.html     # Registration page  
+├── index.html        # Main dashboard page  
+│  
+├── css/  
+│   ├── auth.css      # Styles for login & register  
+│   └── style.css     # Main dashboard styles  
+│  
+├── js/  
+│   └── auth.js       # Login & registration logic  
+│  
+└── images/           # All images used in UI  
 
 ## 📌 How to Use (Local Setup)
 
 1. **Clone the repository**
 
-   ```bash
-   git clone https://github.com/Amankr4578/ArtConnect.git
-   
-2. **Open the project**
+```bash
+git clone https://github.com/Amankr4578/ArtConnect.git
+Open the project
 
 Navigate to the project folder
 
-Open index.html in your browser
+Open login.html in your browser
 
-**⚙️ Tech Stack**
+Flow
+
+Register → goes to login page
+
+Login → opens main dashboard
+
+⚙️ Tech Stack
 Technology	Purpose
-HTML	      Structure
-CSS	        Styling
-Fonts       Poppins 
+HTML	Structure
+CSS	Styling & layout
+JavaScript	Page navigation & logic
+Google Fonts	Typography (Poppins)
+📝 Customization Tips
+Change text and names in HTML files to personalize the platform.
 
-**📝 Customization Tips**
+Modify colors in style.css to apply your own theme.
 
-Change text and images in index.html to personalize the site.
+Replace images in the images folder.
 
-Modify colors and layout in style.css to match your style.
+Add backend (PHP / Node / Firebase) to make it fully functional.
 
-Add more pages (e.g., About, Gallery, Contact) for a full website.
+📄 Use Case
+This project can be used as:
 
-**🤝 Contributions**
+Frontend portfolio project
 
+College mini project / major project base
+
+UI template for social media platforms
+
+🤝 Contributions
 Contributions are welcome!
+
 To contribute:
 
 Fork the project
@@ -59,3 +92,6 @@ Create a new branch
 Make your changes
 
 Open a Pull Request
+
+Author: Aman Kumar
+Project Name: VisualNest – Creative Social Platform UI
